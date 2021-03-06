@@ -6,4 +6,5 @@ It uses Python language, DuckDuckGo searches and Google Text to Speech to provid
 
 There is no wake word.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/purkG5Bazbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Video Demo:
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/purkG5Bazbw/0.jpg)](https://www.youtube.com/watch?v=purkG5Bazbw)
