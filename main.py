@@ -38,8 +38,11 @@ def search_duckduckgo(text):
         print(duckDuckGourl)
         response = requests.get(duckDuckGourl).json()
         answerLong = response['AbstractText']
-        answer = answerLong.split(". ")
-        output('The answer to your question: ' + text + '. Is ' + answer[0])
+        if answerLong:
+            answer = answerLong.split(". ")
+            output('The answer to your question: ' + text + '. Is ' + answer[0])
+        else:
+            output("I'm Sorry, I didn't quite understand. Can you rephrase that?")
     except:
         output("I'm sorry. I don't know that")
 
